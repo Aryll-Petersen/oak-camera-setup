@@ -15,7 +15,7 @@
 2. `Ifconfig`
 3. Look for `eth0` and `inet addr`: for Your IP address
 4. `nmap -sn `(Your IP address, but replace last digit with 0)`/24`
-  - Example: `nmap -sn 123.123.123.0/24`
+   Example: `nmap -sn 123.123.123.0/24`
 5. All ethernet devices and the Camera's IP addresses should be shown.
 
 ### SSH into the camera
