@@ -15,10 +15,11 @@
 2. `Ifconfig`
 3. Look for `eth0` and `inet addr`: for Your IP address
 4. `nmap -sn `(Your IP address, but replace last digit with 0)`/24`
-   Example: `nmap -sn 123.123.123.0/24`
+   * Example: `nmap -sn 123.123.123.0/24`
 5. All ethernet devices and the Camera's IP addresses should be shown.
 
 ### SSH into the camera
 1. Enter: `pkg install openssh`
 2. Enter: `ssh pi@(OAK IP Address) -X`
-3. If that does not work click this link for more details -> https://docs.luxonis.com/projects/hardware/en/latest/pages/guides/raspberrypi.html#ssh-into-the-rpi
+3. When terminal asks for password Enter: `raspberry`
+4. If that does not work click this link for more details -> https://docs.luxonis.com/projects/hardware/en/latest/pages/guides/raspberrypi.html#ssh-into-the-rpi
